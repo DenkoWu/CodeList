@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        sample_text.text = stringFromJNI()
+        sample_text.text = "我的代码库"
     }
 
 
